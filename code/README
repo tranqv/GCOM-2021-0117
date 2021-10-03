@@ -1,9 +1,10 @@
 
 
-
 Example 4.1 a:          
 
     fprefix = ex01a
+
+    python3 main_ex1a.py
 
     ex01a-ContR000.pdf
     ex01a-ContR010.pdf
@@ -13,13 +14,17 @@ Example 4.1 b:
 
     fprefix = ex01b 
 
+    python3 main_ex1b.py
+
     ex01b-ContR000.pdf
     ex01b-ContR010.pdf
     ex01b-eConvR0_log.pdf
 
 Example 4.2:          
-
+    
     fprefix = ex02a 
+
+    python3 main_ex2a.py
 
     ex02a-ContR000.pdf
     ex02a-ContR010.pdf
@@ -33,6 +38,8 @@ Example 4.3:
 
     fprefix = ex03a         without noise to input
 
+    python3 main_ex3a.py
+
     ex03a-ContR000.pdf
     ex03a-ContR010.pdf
     ex03a-EConvR0_log.pdf
@@ -41,7 +48,9 @@ Example 4.3:
     ex03a-Ucomp003.pdf
 
     fprefix = ex03b         with random noise to input 
-
+    
+    python3 main_ex3a.py
+    
     ex03b-eCVR0_log.pdf
     ex03b-UeU-n000.pdf
     ex03b-UeU-n001.pdf
