@@ -1,0 +1,50 @@
+
+
+
+Example 4.1 a:          
+
+    fprefix = ex01a
+
+    ex01a-ContR000.pdf
+    ex01a-ContR010.pdf
+    ex01a-eConvR0_log.pdf
+
+Example 4.1 b:          
+
+    fprefix = ex01b 
+
+    ex01b-ContR000.pdf
+    ex01b-ContR010.pdf
+    ex01b-eConvR0_log.pdf
+
+Example 4.2:          
+
+    fprefix = ex02a 
+
+    ex02a-ContR000.pdf
+    ex02a-ContR010.pdf
+    ex02a-eConvR0_log.pdf
+    ex02a-Ucomp000.pdf
+    ex02a-Ucomp001.pdf
+    ex02a-Ucomp002.pdf
+
+
+Example 4.3: 
+
+    fprefix = ex03a         without noise to input
+
+    ex03a-ContR000.pdf
+    ex03a-ContR010.pdf
+    ex03a-EConvR0_log.pdf
+    ex03a-Ucomp000.pdf
+    ex03a-Ucomp002.pdf
+    ex03a-Ucomp003.pdf
+
+    fprefix = ex03b         with random noise to input 
+
+    ex03b-eCVR0_log.pdf
+    ex03b-UeU-n000.pdf
+    ex03b-UeU-n001.pdf
+    ex03b-UeU-n002.pdf
+
+
