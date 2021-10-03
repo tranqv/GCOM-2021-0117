@@ -1,7 +1,12 @@
 #
-# References:
-# [1] https://se.mathworks.com/matlabcentral/fileexchange/48154-the-mittag-leffler-function
-# [2] https://github.com/khinsen/mittag-leffler
+# This code was copied and edited from 
+# [1] https://github.com/khinsen/mittag-leffler
+#
+# It passed most of the test cases from 
+# [2] https://github.com/tranqv/Mittag-Leffler-function-and-its-derivative
+#
+# Main reference:
+# [3] https://se.mathworks.com/matlabcentral/fileexchange/48154-the-mittag-leffler-function
 #
 #
 

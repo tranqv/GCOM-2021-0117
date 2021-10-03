@@ -1,37 +1,15 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[1]:
-
-'''
-    Subroutines for Post-processing of Numerical Examples
-    of the revised manuscript: 
-
-        "On mild solutions of the p-Laplacian fractional Langevin equations with
-        anti-periodic type boundary conditions"
-
-    Usage:
-    from inc_post import * 
-'''
-
 import numpy as np 
-import libcmfe as my 
-from   mittag_leffler import ml 
 from   scipy.special import gamma
-#import scipy.interpolate as si
-#import scipy.linalg as la
-#from  scipy.interpolate import Akima1DInterpolator as scipy_akima
-#from lib001 import intshift
+import matplotlib.pyplot as plt
+from   mittag_leffler import ml 
 
 MachEps = np.finfo(float).eps
 
-import matplotlib.pyplot as plt
-
 def cm2in (x):
     return x/2.54
-
-
-
 
 #
 
