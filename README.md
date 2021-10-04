@@ -26,15 +26,15 @@
 
 **3) Run the test cases**
 
-  a) Download this package ans unzip it. One should have the folder **GCOM-2021-0117**
+  a) Download this package and extract it. One should have the folder **GCOM-2021-0117**.
   
   Inside the subdirectory **code** of the folder **GCOM-2021-0117**, three examples are prepared with their main programs as follows:
      
     + main_ex01a.py  Example 1a,  
     + main_ex01b.py  Example 1b, 
     + main_ex02a.py  Example 2,  
-    + main_ex03a.py  Example 3a, 
-    + main_ex03b.py  Example 3b. 
+    + main_ex03a.py  Example 3a, without noise,
+    + main_ex03b.py  Example 3b, with noise to the input. 
     
   One can use main.py to check if the codes works properly or not by 
   + setting the value of **lmax** not so large, e.g. **lmax = 5**, and 
