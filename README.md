@@ -53,10 +53,10 @@
   Please read comments inside the codes to gain informations and check with output to the screen when executing.
   
   ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+)
-  **Hint:** We should use **main.py** to check if the codes works properly or not by: 
+  **Hint:** We should use **main.py** firstly to check if the codes works properly or not by: 
   + setting the value of **lmax** moderately, e.g. **lmax = 5**, and 
   + assigning the value of **fprefix** as it was prepared inside the code, then 
-  + perform the command 
+  + performing the following command as in Step d).
 ``` 
   python3 main.py
 ```
