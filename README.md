@@ -76,5 +76,8 @@
   Note that, within **main_post.py** we must set the values of **fprefix** and **lmax** accordingly.
   While figures for Example 3b were made when we run the command **python3 main_ex03b.py** as above.
     
-    
-    
+
+**References:**
+[1] https://github.com/khinsen/mittag-leffler
+[2] https://github.com/tranqv/Mittag-Leffler-function-and-its-derivative
+[3] https://se.mathworks.com/matlabcentral/fileexchange/48154-the-mittag-leffler-function
