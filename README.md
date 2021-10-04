@@ -59,7 +59,12 @@ On mild solutions of the Laplacian fractional Langevin equations with anti-perio
       
 **4) Postprocessing**
    
-  After running the examples, we can use the command **python3 main_post.py** to plot the results of Examples 1a, 1b, 2, 3a. 
+  After running the examples, we can use the command 
+  
+      python3 main_post.py
+      
+  to plot the results of Examples 1a, 1b, 2, 3a. 
+  
   Note that, within **main_post.py** we must set the values of **fprefix** and **lmax** accordingly.
   While figures for Example 3b were made when we run the command **python3 main_ex03b.py** as above.
     
