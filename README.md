@@ -1,6 +1,6 @@
 # GCOM-2021-0117
 
-## **On mild solutions of the Laplacian fractional Langevin equations with anti-periodic type boundary conditions**
+#### **On mild solutions of the Laplacian fractional Langevin equations with anti-periodic type boundary conditions**
 
 + Example **4.1**, **(a)** and **(b)** 
 + Example **4.2**
@@ -52,9 +52,9 @@
   
   Please read comments inside the codes to gain informations and check with output to the screen when executing.
   
-  *We can use **main.py** to check if the codes works properly or not by: 
-  + setting the value of **lmax** moderately, e.g. **lmax = 5**, and 
-  + assigning the value of **fprefix** as it was prepared inside the code.*
+  _We can use **main.py** to check if the codes works properly or not by: 
+  _+ setting the value of **lmax** moderately, e.g. **lmax = 5**, and 
+  _+ assigning the value of **fprefix** as it was prepared inside the code.
   
   b) Open a Command Prompt (Windows) or Terminal (Linux)
   
