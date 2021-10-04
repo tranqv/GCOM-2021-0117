@@ -48,7 +48,7 @@
     + main_ex03a.py  Example 3a, without noise,
     + main_ex03b.py  Example 3b, with noise to the input. 
 
-  All programs perform Procedure (P) of the manuscript. 
+  All programs perform **Procedure (P)** of the manuscript. 
   
   Please read comments inside the codes to gain informations and check with output to the screen when executing.
   
