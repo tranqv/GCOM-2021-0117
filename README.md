@@ -1,6 +1,12 @@
 # GCOM-2021-0117
 **On mild solutions of the Laplacian fractional Langevin equations with anti-periodic type boundary conditions**
 
++ Example **4.1** **a** and **b** 
++ Example **4.2**
++ Example **4.3** 
+  ++ without noise to input
+  ++ with random noise to input 
+
 **1) Install Anaconda for Python 3** 
 
   a) Windows: 
