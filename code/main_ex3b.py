@@ -36,7 +36,8 @@ fprefix = "ex03b"
 #   lmax = 11   To run fully for the manuscript. But it takes time! 
 
 lmax = 11
-#lmax = 5 
+
+l0 = 7
 
 #
 # To define some important paths for output:
@@ -93,7 +94,7 @@ a_Err0 = np.zeros( nmax )
 a_Err2 = np.zeros( nmax )
 
 
-N = Nuref 
+N = int( 10 * int(2)**l0 )
 
 dt, t, xi = gene_meshes ( N, c_a, c_b )
 
