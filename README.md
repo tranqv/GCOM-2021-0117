@@ -59,7 +59,7 @@
     + **figs** saves figure output from all the main program
     + **xout** saves the results in ascii format.
   + The **main_ex03a.py** must be excecuted in advance of **main_ex03b.py** since the latter program needs the output 
-  from the preceeding one, while the others (for Examples 1a, 1b, and 2) can run independently.
+  from the preceeding one, while the others (for Examples 1a, 1b, 2, and 3a) can run independently.
       
 **4) Postprocessing**
    
