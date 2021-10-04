@@ -55,8 +55,12 @@
   ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+)
   **Hint:** We should use **main.py** to check if the codes works properly or not by: 
   + setting the value of **lmax** moderately, e.g. **lmax = 5**, and 
-  + assigning the value of **fprefix** as it was prepared inside the code.
-  
+  + assigning the value of **fprefix** as it was prepared inside the code, then 
+  + perform the command 
+``` 
+  python3 main.py
+```
+
   b) Open a Command Prompt (Windows) or Terminal (Linux)
   
   c) Change directory to **GCOM-2021-0117-main**, and then the **code** inside 
