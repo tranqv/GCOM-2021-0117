@@ -35,13 +35,11 @@ The python codes here are to perform numerical experiments of
     conda install scipy
     conda install matplotlib
 
-**3) Run the test cases**
+**3) Obtain this package**
 
-  a) Download this package 
+  Download https://codeload.github.com/tranqv/GCOM-2021-0117/zip/refs/heads/main
   
-  https://codeload.github.com/tranqv/GCOM-2021-0117/zip/refs/heads/main
-  
-  and extract it. One should have the folder **GCOM-2021-0117-main**.
+  and extract the zip file. One should have the folder **GCOM-2021-0117-main**.
   
   Inside the subdirectory **code** of the folder **GCOM-2021-0117-main**, three examples are prepared with their main programs as follows:
      
@@ -53,47 +51,72 @@ The python codes here are to perform numerical experiments of
 
   All programs perform **Procedure (P)** in Section 4 of the manuscript. 
   
-  Please read comments inside the codes to gain informations and check with output to the screen when executing.
+  Read comments inside the codes to gain informations and check with output to the screen when executing.
+ 
+  **4) Run the test cases**
+  
+  a) Method 1: Using Jupyter Notebook
+  
+  Change directory to **GCOM-2021-0117-main**, and **code**, then we can see the following files:
+  
+      main_ex01a.ipynb
+      main_ex01b.ipynb
+      main_ex02a.ipynb
+      main_ex03a.ipynb
+      main_ex03b.ipynb
+  
+  Click to choose a file. Move to the new tab, click _Kernel_ and _Restart & Run All_ to execute the program.
   
   ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+)
-  **Hint:** We should use **main.py** firstly to check if the codes works properly or not by: 
-  + setting the value of **lmax** moderately, e.g. **lmax = 5**, and 
-  + assigning the value of **fprefix** as it was prepared inside the code, then 
-  + performing the following command as in Step 3d.
-``` 
-  python3 main.py
-```
+  **Hint:** We should run **main.ipynb** firstly to check if the codes works properly.
+  + set the value of **lmax** moderately, e.g. **lmax = 5**, and 
+  + assig the value of **fprefix** as it was prepared inside the code, then 
+  + _Kernel -> Restart & Run All_ 
 
-  b) Open a Command Prompt (Windows) or Terminal (Linux)
+  b) Method 2: Using Command Prompt (in Windows) or Terminal (in Linux)
   
-  c) Change directory to **GCOM-2021-0117-main**, and then the **code** inside 
+  + Change directory to **GCOM-2021-0117-main**, and then the **code** inside 
+
+  + Inside the folder **code**, run the examples as the following commands 
   
-  d) Inside the folder **code**, run the examples as the following commands 
-  
+  ```
       python3 main_ex01a.py
       python3 main_ex01b.py
       python3 main_ex02a.py
       python3 main_ex03a.py
       python3 main_ex03b.py
-    
-  where the first command is for Example 1a, and so on.
-    
-  Notes:
+  ```
+   where the first command is for Example 1a, and so on.
+  
+  ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+)
+  **Hint:** We should run the program **main.py** firstly to check if the codes works properly or not. 
+  + set the value of **lmax** moderately, e.g. **lmax = 5**, and 
+  + assign the value of **fprefix** as it was prepared inside the code, then 
+  + perform this command as in Step 3d.
+``` 
+  python3 main.py
+```
+
+  **Notes:**
   + At the first time we run one of the above commands, two folders, i.e., **figs** and **xout**, will be created.
     + **figs** saves figures from all the main programs
     + **xout** saves the results (numerical mild soluions, error estimates) in ascii format, i.e., .txt and .csv.
   + The **main_ex03a.py** must be excecuted in advance of **main_ex03b.py** since the latter program needs the output 
   from the preceeding one, while the others (for Examples 1a, 1b, 2, and 3a) can run independently.
       
-**4) Postprocessing**
+**5) Postprocessing**
    
-  After running the examples, we can use the command 
+  After running the examples, we can run 
+  
+    main_post.ipynb
+  
+  with Jupyter Notebook, or invoke the command 
   
       python3 main_post.py
       
-  to plot the results of Examples 1a, 1b, 2, 3a. 
+  in a Command Prompt (in Windows) or Terminal (in Linux) to plot the results of Examples 1a, 1b, 2, 3a. 
   
-  Note that, within **main_post.py** we must set the values of **fprefix** and **lmax** accordingly.
+  Note that, within **main_post.py**, we must set the values of **fprefix** and **lmax** accordingly.
   While figures for Example 3b were made when we run the command **python3 main_ex03b.py** as above.
     
 
