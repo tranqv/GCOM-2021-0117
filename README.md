@@ -69,7 +69,7 @@ To do, we have 5 tasks. Three first tasks should be done at first and only once.
   Click to choose a file, move to the new tab, click on _Kernel_ and _Restart & Run All_ to execute the program.
   
   ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+)
-  **Hint:** We should run **main.ipynb** firstly to check if the codes works properly. After opening this file in a new tab, 
+  **Hint:** We should run **main.ipynb** firstly to check if the codes work properly. After opening this file in a new tab, 
   + set the value of **lmax** moderately, e.g. **lmax = 5**, and 
   + assign the value of **fprefix** as it was prepared inside the code, then 
   + click on _Kernel_ and _Restart & Run All_ to execute the program.
@@ -90,7 +90,7 @@ To do, we have 5 tasks. Three first tasks should be done at first and only once.
    where the first command is for Example 1a, and so on.
   
   ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+)
-  **Hint:** We should run the program **main.py** firstly to check if the codes works properly or not. 
+  **Hint:** We should run the program **main.py** firstly to check whether the codes work properly or not. 
   + open this file with a text editor,
   + set the value of **lmax** moderately, e.g. **lmax = 5**, and 
   + assign the value of **fprefix** as it was prepared inside the code, then 
