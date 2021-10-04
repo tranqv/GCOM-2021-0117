@@ -69,7 +69,7 @@ elif fprefix == "ex01b":
     HaveExact = True  
 #    
 elif fprefix == "ex02a":
-    from inc_ex2   import * 
+    from inc_ex2a  import * 
     HaveExact = True  
 #
 elif fprefix == "ex03a":
