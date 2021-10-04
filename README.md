@@ -28,7 +28,7 @@
 
   a) Download this package 
   
-    https://codeload.github.com/tranqv/GCOM-2021-0117/zip/refs/heads/main
+  https://codeload.github.com/tranqv/GCOM-2021-0117/zip/refs/heads/main
   
   and extract it. One should have the folder **GCOM-2021-0117**.
   
