@@ -65,8 +65,8 @@
     
   Notes:
   + At the first time we run one of the above commands, two folders, i.e., **figs** and **xout**, will be created.
-    + **figs** saves figure output from all the main program
-    + **xout** saves the results in ascii format.
+    + **figs** saves figures from all the main programs
+    + **xout** saves the results (numerical mild soluions, error estimates) in ascii format, i.e., .txt and .csv.
   + The **main_ex03a.py** must be excecuted in advance of **main_ex03b.py** since the latter program needs the output 
   from the preceeding one, while the others (for Examples 1a, 1b, 2, and 3a) can run independently.
       
