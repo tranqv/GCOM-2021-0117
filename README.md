@@ -93,7 +93,14 @@ To do, we have 5 tasks. Three first tasks should be done at first and only once.
   **Hint:** We should run the program **main.py** firstly to check whether the codes work properly or not. 
   + open this file with a text editor,
   + set the value of **lmax** moderately, e.g. **lmax = 5**, and 
-  + assign the value of **fprefix** as it was prepared inside the code, then 
+  + assign the value of **fprefix** as it was prepared inside the code, e.g. 
+    ```python
+    #fprefix = "ex01a"
+    #fprefix = "ex01b"
+    fprefix = "ex02a"       # run Example 2
+    #fprefix = "ex03a"
+    ```
+    then 
   + perform this command
 ``` 
   python3 main.py
