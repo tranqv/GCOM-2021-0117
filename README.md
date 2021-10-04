@@ -42,9 +42,9 @@
   
   b) Open a Command Prompt (Windows) or Terminal (Linux)
   
-  c) Change directory to "GCOM-2021-0117" 
+  c) Change directory to **GCOM-2021-0117** and then **code**
   
-  d) Run the examples as the following commands 
+  d) Inside **code**, run the examples as the following commands 
   
       python3 main_ex01a.py
       python3 main_ex01b.py
@@ -54,7 +54,11 @@
     
   where the first command is for Example 1a and so on.
     
-  Note that the **main_ex03a.py** must be excecuted in advance of **main_ex03b.py** since the latter program needs the output 
+  Notes:
+  + At the the first time we run one of the above commands, two folders, i.e., **figs** and **xout**, will created.
+  ++ **figs** saves figure output from all the main program
+  ++ **xout** saves the results in ascii format.
+  + The **main_ex03a.py** must be excecuted in advance of **main_ex03b.py** since the latter program needs the output 
   from the preceeding one, while the others can run independently.
       
 **4) Postprocessing**
