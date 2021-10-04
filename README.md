@@ -52,9 +52,10 @@
   
   Please read comments inside the codes to gain informations and check with output to the screen when executing.
   
-  ![#1589F0](https://via.placeholder.com/15/1589F0/000000?text=+)We can use **main.py** to check if the codes works properly or not by: 
-  + setting the value of **lmax** moderately, e.g. **lmax = 5**, and 
-  + assigning the value of **fprefix** as it was prepared inside the code.
+  ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+)
+  _We can use **main.py** to check if the codes works properly or not by: 
+  + _setting the value of **lmax** moderately, e.g. **lmax = 5**, and 
+  + _assigning the value of **fprefix** as it was prepared inside the code.
   
   b) Open a Command Prompt (Windows) or Terminal (Linux)
   
