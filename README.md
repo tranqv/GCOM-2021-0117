@@ -39,9 +39,13 @@
     + main_ex02a.py  Example 2,  
     + main_ex03a.py  Example 3a, without noise,
     + main_ex03b.py  Example 3b, with noise to the input. 
-    
-  One can use main.py to check if the codes works properly or not by 
-  + setting the value of **lmax** not so large, e.g. **lmax = 5**, and 
+
+  All programs perform Procedure (P) of the manuscript. 
+  
+  Please read comments inside the codes to gain informations and check with output to the screen.
+  
+  We can use **main.py** to check if the codes works properly or not by: 
+  + setting the value of **lmax** moderately, e.g. **lmax = 5**, and 
   + assigning the value of **fprefix** as it was prepared inside the code.
   
   b) Open a Command Prompt (Windows) or Terminal (Linux)
