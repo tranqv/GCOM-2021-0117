@@ -30,9 +30,9 @@
   
   https://codeload.github.com/tranqv/GCOM-2021-0117/zip/refs/heads/main
   
-  and extract it. One should have the folder **GCOM-2021-0117**.
+  and extract it. One should have the folder **GCOM-2021-0117-main**.
   
-  Inside the subdirectory **code** of the folder **GCOM-2021-0117**, three examples are prepared with their main programs as follows:
+  Inside the subdirectory **code** of the folder **GCOM-2021-0117-main**, three examples are prepared with their main programs as follows:
      
     + main_ex01a.py  Example 1a,  
     + main_ex01b.py  Example 1b, 
@@ -46,9 +46,9 @@
   
   b) Open a Command Prompt (Windows) or Terminal (Linux)
   
-  c) Change directory to **GCOM-2021-0117** and then **code**
+  c) Change directory to **GCOM-2021-0117-main**, and then the **code** inside 
   
-  d) Inside **code**, run the examples as the following commands 
+  d) Inside the folder **code**, run the examples as the following commands 
   
       python3 main_ex01a.py
       python3 main_ex01b.py
