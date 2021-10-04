@@ -10,6 +10,7 @@ The python codes here are to perform numerical experiments of
   + **(a)** without noise to input
   + **(b)** with random noise to input 
 
+To do, we have 5 tasks. Three first tasks should be done at first and only once. We will focus only on two last ones. 
 
 **1) Install Anaconda for Python 3** 
 
@@ -55,9 +56,9 @@ The python codes here are to perform numerical experiments of
  
   **4) Run the test cases**
   
-  a) **Method 1:** Using Jupyter Notebook
+  a) **Method 1:** Using Jupyter Notebook (installed together with Anaconda)
   
-  Change directory to **GCOM-2021-0117-main**, and **code**, then we can see the following files:
+  Change directory to **GCOM-2021-0117-main**, and to **code**, then we can see the following files:
   
       main_ex01a.ipynb
       main_ex01b.ipynb
@@ -65,7 +66,7 @@ The python codes here are to perform numerical experiments of
       main_ex03a.ipynb
       main_ex03b.ipynb
   
-  Click to choose a file. Move to the new tab, click _Kernel_ and _Restart & Run All_ to execute the program.
+  Click to choose a file, move to the new tab, click on _Kernel_ and _Restart & Run All_ to execute the program.
   
   ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+)
   **Hint:** We should run **main.ipynb** firstly to check if the codes works properly. After opening this file in a new tab, 
@@ -73,7 +74,7 @@ The python codes here are to perform numerical experiments of
   + assign the value of **fprefix** as it was prepared inside the code, then 
   + click on _Kernel_ and _Restart & Run All_ to execute the program.
 
-  b) **Method 2:** Using Command Prompt (in Windows) or Terminal (in Linux)
+  b) **Method 2:** Using Command Prompt (Windows) or Terminal (Linux)
   
   + Change directory to **GCOM-2021-0117-main**, and to **code**
 
@@ -89,7 +90,8 @@ The python codes here are to perform numerical experiments of
    where the first command is for Example 1a, and so on.
   
   ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+)
-  **Hint:** We should run the program **main.py** firstly to check if the codes works properly or not. Open this file with a text editor,
+  **Hint:** We should run the program **main.py** firstly to check if the codes works properly or not. 
+  + open this file with a text editor,
   + set the value of **lmax** moderately, e.g. **lmax = 5**, and 
   + assign the value of **fprefix** as it was prepared inside the code, then 
   + perform this command
@@ -115,8 +117,8 @@ The python codes here are to perform numerical experiments of
       
   in a Command Prompt (in Windows) or Terminal (in Linux) to plot the results of Examples 1a, 1b, 2, 3a. 
   
-  Note that, within **main_post.py** (or **main_post.ipynb**), we must set the values of **fprefix** and **lmax** accordingly.
-  While figures for Example 3b were made when we run **main_ex03b.py** (or **main_ex03b.ipynb**) as above.
+  Note that, in **main_post.py** (or **main_post.ipynb**), we must set the values of **fprefix** and **lmax** accordingly.
+  While all figures for Example 3b were already made when we ran **main_ex03b.py** (or **main_ex03b.ipynb**).
     
 
 **References:**
