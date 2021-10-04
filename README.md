@@ -74,7 +74,7 @@ To do, we have 5 tasks. Three first tasks should be done at first and only once.
   + assign the value of **fprefix** as it was prepared inside the code, then 
   + click on _Kernel_ and _Restart & Run All_ to execute the program.
 
-  b) **Method 2:** Using Command Prompt (Windows) or Terminal (Linux)
+  b) **Method 2:** Using Anaconda Prompt (Windows) or Terminal (Linux)
   
   + Change directory to **GCOM-2021-0117-main**, and to **code**
 
@@ -115,7 +115,7 @@ To do, we have 5 tasks. Three first tasks should be done at first and only once.
   
       python3 main_post.py
       
-  in a Command Prompt (in Windows) or Terminal (in Linux) to plot the results of Examples 1a, 1b, 2, 3a. 
+  in Anaconda Prompt (Windows) or Terminal (Linux) to plot the results of Examples 1a, 1b, 2, 3a. 
   
   Note that, in **main_post.py** (or **main_post.ipynb**), we must set the values of **fprefix** and **lmax** accordingly.
   While all figures for Example 3b were already made when we ran **main_ex03b.py** (or **main_ex03b.ipynb**).
