@@ -52,14 +52,14 @@
       python3 main_ex03a.py
       python3 main_ex03b.py
     
-  where the first command is for Example 1a and so on.
+  where the first command is for Example 1a, and so on.
     
   Notes:
-  + At the the first time we run one of the above commands, two folders, i.e., **figs** and **xout**, will created.
+  + At the first time we run one of the above commands, two folders, i.e., **figs** and **xout**, will be created.
     + **figs** saves figure output from all the main program
     + **xout** saves the results in ascii format.
   + The **main_ex03a.py** must be excecuted in advance of **main_ex03b.py** since the latter program needs the output 
-  from the preceeding one, while the others can run independently.
+  from the preceeding one, while the others (for Examples 1a, 1b, and 2) can run independently.
       
 **4) Postprocessing**
    
