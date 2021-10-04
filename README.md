@@ -78,6 +78,7 @@
     
 
 **References:**
-[1] https://github.com/khinsen/mittag-leffler
-[2] https://github.com/tranqv/Mittag-Leffler-function-and-its-derivative
-[3] https://se.mathworks.com/matlabcentral/fileexchange/48154-the-mittag-leffler-function
+
++ [1] https://github.com/khinsen/mittag-leffler
++ [2] https://github.com/tranqv/Mittag-Leffler-function-and-its-derivative
++ [3] https://se.mathworks.com/matlabcentral/fileexchange/48154-the-mittag-leffler-function
