@@ -26,7 +26,11 @@
 
 **3) Run the test cases**
 
-  a) Download this package and extract it. One should have the folder **GCOM-2021-0117**.
+  a) Download this package 
+  
+    https://codeload.github.com/tranqv/GCOM-2021-0117/zip/refs/heads/main
+  
+  and extract it. One should have the folder **GCOM-2021-0117**.
   
   Inside the subdirectory **code** of the folder **GCOM-2021-0117**, three examples are prepared with their main programs as follows:
      
