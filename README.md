@@ -56,7 +56,7 @@
   **Hint:** We should use **main.py** firstly to check if the codes works properly or not by: 
   + setting the value of **lmax** moderately, e.g. **lmax = 5**, and 
   + assigning the value of **fprefix** as it was prepared inside the code, then 
-  + performing the following command as in Step d).
+  + performing the following command as in Step 3d.
 ``` 
   python3 main.py
 ```
