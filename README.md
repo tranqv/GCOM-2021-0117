@@ -14,7 +14,7 @@ On mild solutions of the Laplacian fractional Langevin equations with anti-perio
     Guide:     
       https://docs.anaconda.com/anaconda/install/linux/
 
-**2) Install Python libraries **
+**2) Install Python libraries**
 
   a) Open a Command Prompt (Windows) or Terminal (Linux)
   
@@ -57,7 +57,7 @@ On mild solutions of the Laplacian fractional Langevin equations with anti-perio
   Note that the **main_ex03a.py** must be excecuted in advance of **main_ex03b.py** since the latter program needs the output 
   from the preceeding one, while the others can run independently.
       
-**4) Postprocessing **
+**4) Postprocessing**
    
   After running the examples, we can use the command **python3 main_post.py** to plot the results of Examples 1a, 1b, 2, 3a. 
   Note that, within **main_post.py** we must set the values of **fprefix** and **lmax** accordingly.
