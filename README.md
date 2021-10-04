@@ -5,8 +5,8 @@
 + Example **4.1**, **(a)** and **(b)** 
 + Example **4.2**
 + Example **4.3** 
-  ++ **(a)** without noise to input
-  ++ **(b)** with random noise to input 
+  + **(a)** without noise to input
+  + **(b)** with random noise to input 
 
 **1) Install Anaconda for Python 3** 
 
