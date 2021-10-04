@@ -2,11 +2,14 @@
 
 #### **On mild solutions of the Laplacian fractional Langevin equations with anti-periodic type boundary conditions**
 
+The python codes here are to perform numerical experiments of 
+
 + Example **4.1**, **(a)** and **(b)** 
 + Example **4.2**
 + Example **4.3** 
   + **(a)** without noise to input
   + **(b)** with random noise to input 
+
 
 **1) Install Anaconda for Python 3** 
 
