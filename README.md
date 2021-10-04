@@ -43,7 +43,7 @@
 
   All programs perform Procedure (P) of the manuscript. 
   
-  Please read comments inside the codes to gain informations and check with output to the screen.
+  Please read comments inside the codes to gain informations and check with output to the screen when executing.
   
   We can use **main.py** to check if the codes works properly or not by: 
   + setting the value of **lmax** moderately, e.g. **lmax = 5**, and 
