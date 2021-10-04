@@ -55,7 +55,7 @@ The python codes here are to perform numerical experiments of
  
   **4) Run the test cases**
   
-  a) Method 1: Using Jupyter Notebook
+  a) **Method 1:** Using Jupyter Notebook
   
   Change directory to **GCOM-2021-0117-main**, and **code**, then we can see the following files:
   
@@ -68,16 +68,16 @@ The python codes here are to perform numerical experiments of
   Click to choose a file. Move to the new tab, click _Kernel_ and _Restart & Run All_ to execute the program.
   
   ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+)
-  **Hint:** We should run **main.ipynb** firstly to check if the codes works properly.
+  **Hint:** We should run **main.ipynb** firstly to check if the codes works properly. After opening this file in a new tab, 
   + set the value of **lmax** moderately, e.g. **lmax = 5**, and 
-  + assig the value of **fprefix** as it was prepared inside the code, then 
-  + _Kernel -> Restart & Run All_ 
+  + assign the value of **fprefix** as it was prepared inside the code, then 
+  + click on _Kernel_ and _Restart & Run All_ to execute the program.
 
-  b) Method 2: Using Command Prompt (in Windows) or Terminal (in Linux)
+  b) **Method 2:** Using Command Prompt (in Windows) or Terminal (in Linux)
   
-  + Change directory to **GCOM-2021-0117-main**, and then the **code** inside 
+  + Change directory to **GCOM-2021-0117-main**, and to **code**
 
-  + Inside the folder **code**, run the examples as the following commands 
+  + Inside **code**, run the examples using the following commands 
   
   ```
       python3 main_ex01a.py
@@ -89,10 +89,10 @@ The python codes here are to perform numerical experiments of
    where the first command is for Example 1a, and so on.
   
   ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+)
-  **Hint:** We should run the program **main.py** firstly to check if the codes works properly or not. 
+  **Hint:** We should run the program **main.py** firstly to check if the codes works properly or not. Open this file with a text editor,
   + set the value of **lmax** moderately, e.g. **lmax = 5**, and 
   + assign the value of **fprefix** as it was prepared inside the code, then 
-  + perform this command as in Step 3d.
+  + perform this command
 ``` 
   python3 main.py
 ```
@@ -101,12 +101,11 @@ The python codes here are to perform numerical experiments of
   + At the first time we run one of the above commands, two folders, i.e., **figs** and **xout**, will be created.
     + **figs** saves figures from all the main programs
     + **xout** saves the results (numerical mild soluions, error estimates) in ascii format, i.e., .txt and .csv.
-  + The **main_ex03a.py** must be excecuted in advance of **main_ex03b.py** since the latter program needs the output 
-  from the preceeding one, while the others (for Examples 1a, 1b, 2, and 3a) can run independently.
+  + The **main_ex03a.py** (or **main_ex03a.ipynb**) must be excecuted in advance of **main_ex03b.py** (or **main_ex03b.ipynb**) since the latter program needs the output from the preceeding one, while the others (for Examples 1a, 1b, 2, and 3a) can run independently.
       
 **5) Postprocessing**
    
-  After running the examples, we can run 
+  After we finish running the examples, we can run 
   
     main_post.ipynb
   
@@ -116,8 +115,8 @@ The python codes here are to perform numerical experiments of
       
   in a Command Prompt (in Windows) or Terminal (in Linux) to plot the results of Examples 1a, 1b, 2, 3a. 
   
-  Note that, within **main_post.py**, we must set the values of **fprefix** and **lmax** accordingly.
-  While figures for Example 3b were made when we run the command **python3 main_ex03b.py** as above.
+  Note that, within **main_post.py** (or **main_post.ipynb**), we must set the values of **fprefix** and **lmax** accordingly.
+  While figures for Example 3b were made when we run **main_ex03b.py** (or **main_ex03b.ipynb**) as above.
     
 
 **References:**
