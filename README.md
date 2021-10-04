@@ -4,15 +4,16 @@
 **1) Install Anaconda for Python 3** 
 
   a) Windows: 
-    https://repo.anaconda.com/archive/Anaconda3-2021.05-Windows-x86_64.exe
-    Guide: 
-      https://docs.anaconda.com/anaconda/install/windows/
-      https://www.datacamp.com/community/tutorials/installing-anaconda-windows
+  
+  + https://repo.anaconda.com/archive/Anaconda3-2021.05-Windows-x86_64.exe
+  + Guide: 
+      + https://docs.anaconda.com/anaconda/install/windows/
+      + https://www.datacamp.com/community/tutorials/installing-anaconda-windows
 
   b) Linux: 
-    https://repo.anaconda.com/archive/Anaconda3-2021.05-Linux-x86_64.sh
-    Guide:     
-      https://docs.anaconda.com/anaconda/install/linux/
+  + https://repo.anaconda.com/archive/Anaconda3-2021.05-Linux-x86_64.sh
+  + Guide:     
+    + https://docs.anaconda.com/anaconda/install/linux/
 
 **2) Install Python libraries**
 
