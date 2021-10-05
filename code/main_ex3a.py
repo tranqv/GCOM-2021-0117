@@ -13,7 +13,7 @@ import os
 import numpy as np 
 from   scipy.special import gamma
 import scipy.interpolate as si
-import scipy.linalg as la
+#import scipy.linalg as la
 from   scipy.interpolate import Akima1DInterpolator as scipy_akima
 
 #
@@ -31,18 +31,18 @@ from inc_sub2   import *
 #   Example 4.3 (a)     fprefix = "ex03a"  without noise to input 
 #*  Example 4.3 (b)     fprefix = "ex03b"  with noise to input (SEPARATED)
 #
+#
+# Define the number of N_l = 10 * 2^(l) for l=0,lmax-1: 
+#   lmax = 3    To check if the code works properly.
+#   lmax = 11   To run fully for the manuscript. But it takes time! 
+#
+
 
 #fprefix = "ex01a"
 #fprefix = "ex01b"
 #fprefix = "ex02a"
 fprefix = "ex03a"
 #fprefix = "ex03b"      # SEPARATED. Use main_ex3b.py
-
-
-#
-# Define the number of N_l = 10 * 2^(l) for l=0,lmax-1: 
-#   lmax = 5    To check if the code works properly.
-#   lmax = 11   To run fully for the manuscript. But it takes time! 
 
 lmax = 11
 
@@ -69,7 +69,7 @@ elif fprefix == "ex01b":
     HaveExact = True  
 #    
 elif fprefix == "ex02a":
-    from inc_ex2   import * 
+    from inc_ex2a  import * 
     HaveExact = True  
 #
 elif fprefix == "ex03a":
@@ -109,17 +109,17 @@ coef_phip = -f_phip(c_eta2) / ( f_phip(c_eta1) + f_phip(c_eta2) )
 
 
 if ( HaveExact ) :
-#   to save errors |U_N - Uexa| in the max norm:
+#   to save the error |U_N - Uexa| in the max norm:
     o_Err0 = np.zeros( lmax )
-#   to save errors |U_N - Uexa| in the l2- norm:
+#   to save the error |U_N - Uexa| in the l2- norm:
     o_Err2 = np.zeros( lmax )
 #
 
 
-# to save errors in the max norm:
+# to save the error |U_{N_{l}} - U_{N_{l-1}}| in the max norm:
 a_Err0 = np.zeros( lmax )
 
-# to save errors in the l2- norm:
+# to save the error |U_{N_{l}} - U_{N_{l-1}}| in the l2- norm:
 a_Err2 = np.zeros( lmax )
 
 # to save array of the mesh sizes N:
@@ -199,9 +199,9 @@ for l in range ( 0, lmax ):
 #   contraction rate estimate: 
     M1 = 0 
 
-    for m in range(1,M+1):
+    for m in range(0,M):
 
-        print ( "\n*   Iteration m =", m )
+        print ( "\n*   Iteration m =", m+1 )
 
         print ( "Procedure P: (2) (a)")
 
@@ -292,7 +292,7 @@ for l in range ( 0, lmax ):
 
         rerr = aerr / max( unom, 1.0e-20 ) 
 
-        print ( "+ Contraction err = | U^{m} - U^{m-1} |:"  )
+        print ( "+ Contraction err = |U^{m} - U^{m-1}|:"  )
         print ( "\t Ab.err = %16.9e \t Re.err = %16.9e" %( aerr, rerr )  )
 
 #       a_cont[m] = aerr 
@@ -316,11 +316,11 @@ for l in range ( 0, lmax ):
     funame = fprefix + str('-Umild') + intshift(l,3) 
 
     ftmp = os.path.join( FIGDIR, funame )
-    print ( "Plotting Unew ... \n\t" + ftmp  )
+    print ( "Plotting U_N ... \n\t" + ftmp + " .pdf, .jpg"  )
     show_MildSol ( t, Unew, fname=ftmp, report=False )
 
     ftmp = os.path.join( OUTDIR, funame )
-    print ( "Writing Unew to files ... \n\t" + ftmp + " .cvs, .txt" )
+    print ( "Writing U_N to files ... \n\t" + ftmp + " .cvs, .txt" )
     w_MildSol ( t, Unew, os.path.join( OUTDIR, ftmp ), ext='csv' )
     w_MildSol ( t, Unew, os.path.join( OUTDIR, ftmp ), ext='txt' )
 #
@@ -351,7 +351,7 @@ for l in range ( 0, lmax ):
         a_Err0[l] = max( e0, MachEps )
 
         print ( "\n"  + "-" * 70  )
-        print ( "l = %2d, N_l = %6d, Err = | U_{N_{l}} - U_{N_{l-1}} |:"%( l, N ) )
+        print ( "l = %2d, N_l = %6d, Err = |U_{N_{l}} - U_{N_{l-1}}|:"%( l, N ) )
         print ( "\tMaxErr = %16.9e, L2-Err = %16.9e"%( e0, e2 ) )
         print ( "-" * 70  )
 #        
@@ -371,7 +371,7 @@ for l in range ( 0, lmax ):
         e0, e2 = f_errest ( Unew, Uexa )
 
         print ( \
-            "\nl = %3d, Max|Uexact-U_N| = %16.9e, L2 |Uexact-U_N| = %16.9e"%( \
+            "\nl = %3d, Max|Uexa - U_N| = %16.9e, L2 |Uexa - U_N| = %16.9e"%( \
              l, e0, e2 ) )
         print ( "*" * 80 + "\n" )
 
@@ -400,7 +400,6 @@ for l in range ( 0, lmax ):
 #
 
 #*********************************************************************
-#  |Unew - Uold|:  i 
 
 ftmp = os.path.join( FIGDIR, fprefix + str('-iConvR0') )
 show_ConvRate ( lmax, a_N, a_Err0, fname=ftmp, report=False, alog=True ) 
@@ -409,7 +408,7 @@ ftmp = os.path.join( FIGDIR, fprefix + str('-iConvR0') )
 show_ConvRate ( lmax, a_N, a_Err0, fname=ftmp, report=False, alog=False ) 
 
 
-print ( '\nThe error ||U_{N2} - U_{N1}|| in the max norm:' )
+print ( '\nThe error |U_{N_{l}} - U_{N_{l-1}}| in the max norm:' )
 w_ConvRate ( lmax, a_N, a_Err0, fname=None )
 
 ftmp = os.path.join( OUTDIR, fprefix + str('-iConvR0') )
@@ -423,7 +422,7 @@ show_ConvRate ( lmax, a_N, a_Err2, fname=ftmp, report=False, alog=True )
 ftmp = os.path.join( FIGDIR, fprefix + str('-iConvR2') )
 show_ConvRate ( lmax, a_N, a_Err2, fname=ftmp, report=False, alog=False ) 
 
-print ( '\nThe error ||U_{N2} - U_{N1}|| in the l2- norm:' )
+print ( '\nThe error |U_{N_{l}} - U_{N_{l-1}}| in the l2- norm:' )
 w_ConvRate ( lmax, a_N, a_Err2, fname=None )
 
 ftmp = os.path.join( OUTDIR, fprefix + str('-iConvR2') )
@@ -431,15 +430,15 @@ w_ConvRate ( lmax, a_N, a_Err2, fname=ftmp )
 
 
 #*********************************************************************
-#  |Ucal - Uexa|: e
-#
+
 if ( HaveExact ) :     
 
     ftmp = os.path.join( FIGDIR, fprefix + str('-eConvR0') )
     plot_ConvRate ( lmax, a_N, o_Err0, fname=ftmp, report=False, alog=True  ) 
     plot_ConvRate ( lmax, a_N, o_Err0, fname=ftmp, report=False, alog=False ) 
 
-    print ( '\nThe error ||U_{calc} - U_{exact}|| in the max norm:' )
+    print ( '\nThe error |U_N - Uexa| in the max norm:' )
+
     w_ConvRate ( lmax, a_N, o_Err0, fname=None )
 
     ftmp = os.path.join( OUTDIR, fprefix + str('-eConvR0') )
@@ -449,7 +448,8 @@ if ( HaveExact ) :
     plot_ConvRate ( lmax, a_N, o_Err2, fname=ftmp, report=False, alog=True  ) 
     plot_ConvRate ( lmax, a_N, o_Err2, fname=ftmp, report=False, alog=False ) 
 
-    print ( '\nThe error ||U_{calc} - U_{exact}|| in the l2- norm:' )
+    print ( '\nThe error |U_N - Uexa| in the l2- norm:' )
+
     w_ConvRate ( lmax, a_N, o_Err2, fname=None )
 
     ftmp = os.path.join( OUTDIR, fprefix + str('-eConvR2') )

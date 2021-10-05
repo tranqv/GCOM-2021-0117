@@ -6,7 +6,7 @@ import os
 import numpy as np 
 from   scipy.special import gamma
 import scipy.interpolate as si
-import scipy.linalg as la
+#import scipy.linalg as la
 from   scipy.interpolate import Akima1DInterpolator as scipy_akima
 
 #
@@ -24,30 +24,27 @@ from inc_sub2 import *
 #   Example 4.3 (a)     fprefix = "ex03a"  without noise to input 
 #*  Example 4.3 (b)     fprefix = "ex03b"  with noise to input (SEPARATED)
 #
-
-#fprefix = "ex01a"
-#fprefix = "ex01b"
-#fprefix = "ex02a"
-fprefix = "ex03a"
-
 #
 # Define the number of N_l = 10 * 2^(l) for l=0,lmax-1: 
 #   lmax = 5    To check if the code works properly.
 #   lmax = 11   To run fully for the manuscript. But it takes time! 
+#
 
-#lmax = 11
-lmax = 5 
+#fprefix = "ex01a"
+#fprefix = "ex01b"
+fprefix = "ex02a"
+#fprefix = "ex03a"
+
+
+lmax = 11
 
 
 #
 
 plotReport = True 
 #plotReport = False
-
 plotSol = True 
-
 plotErr = True  
-
 plotdU  = False 
 
 #
@@ -68,7 +65,7 @@ elif fprefix == "ex01b":
     HaveExact = True  
 #    
 elif fprefix == "ex02a":
-    from inc_ex2   import * 
+    from inc_ex2a  import * 
     HaveExact = True  
 #
 elif fprefix == "ex03a":
@@ -139,12 +136,12 @@ l = lmax - 1
 N = int(a_N[l])
 
 if ( HaveExact ):
-    print ( 'Loading u, the exact solution, ...' ) 
+    print ( 'Loading the exact solution, ...' ) 
     tE = np.linspace ( c_a, c_b, N )
     UE = f_uexact ( tE ) 
 else:
 #   Pick up the reference:
-    print ( 'Loading Uexa as the best numerical solution ...' ) 
+    print ( 'Loading the best numerical solution ...' ) 
     funame = os.path.join( OUTDIR, furef + str('-Umild') + intshift(luref,3) )
     tE, UE = load_U ( luref, funame )
 #
@@ -169,7 +166,8 @@ for l in range ( 0, lmax ):
 
     a_Err[l] = e0 
 
-    print ( "%10d   Max  |Ue-Uc| = %10.3E   L2  |Ue-Uc| = %10.3E " % (N, e0, e2) )
+    print ( "%10d,  Max|Uexa - U_N| = %10.3E,  L2 |Uexa - U_N| = %10.3E"%( \
+        N, e0, e2) )
 
     if ( plotSol ):
         funame = os.path.join( FIGDIR, fprefix + str('-Ucomp') + intshift(l,3)) 
@@ -193,7 +191,9 @@ for l in range ( 0, lmax ):
 
             e0, e2 = f_errest ( dUe, dU )
 
-            print ( "%10d   Max |dUe-dU| = %10.3E   L2 |dUe-dU| = %10.3E " % (N, e0, e2) )
+            print ( \
+                "%10d,  Max|dUexa - dU_N| = %10.3E,  L2 |dUexa - dU_N| = %10.3E"%(\
+                N, e0, e2) )
 
         else:
             xi, dU = f_Dfrac ( t, Uc, c_alpha, f_psi )
