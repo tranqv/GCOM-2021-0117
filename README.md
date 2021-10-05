@@ -52,7 +52,7 @@ To do, we have 5 tasks. Three first tasks should be done at first and only once.
 
   All programs perform **Procedure (P)** in Section 4 of the manuscript. 
   
-  Read comments inside the codes to gain informations and check with output to the screen when executing.
+  Read comments included in and messages inside the **print** command of the codes to gain informations and check with output to the screen when executing.
  
   ## **4) Run the test cases**
   
@@ -128,8 +128,14 @@ To do, we have 5 tasks. Three first tasks should be done at first and only once.
   While all figures for Example 3b were already made when we ran **main_ex03b.py** (or **main_ex03b.ipynb**).
     
 
-**References:**
+## **References:**
 
 + [1] https://github.com/khinsen/mittag-leffler
 + [2] https://github.com/tranqv/Mittag-Leffler-function-and-its-derivative
 + [3] https://se.mathworks.com/matlabcentral/fileexchange/48154-the-mittag-leffler-function
+
+Python libraries: 
++ [4] https://numpy.org/doc/stable/reference/
++ [5] https://docs.scipy.org/doc/scipy/reference/interpolate.html 
++ [6] https://docs.scipy.org/doc/scipy/reference/special.html
++ [7] https://matplotlib.org/
