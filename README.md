@@ -40,7 +40,7 @@ To do, we have 5 tasks. Three first tasks should be done at first and only once.
 
   Download https://codeload.github.com/tranqv/GCOM-2021-0117/zip/refs/heads/main
   
-  and extract the zip file. One should have the folder **GCOM-2021-0117-main**.
+  and extract the zip file. One should have the **GCOM-2021-0117-main** folder.
   
   Inside the subdirectory **code** of the folder **GCOM-2021-0117-main**, three examples are prepared with their main programs as follows:
      
