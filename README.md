@@ -110,7 +110,7 @@ To do, we have 5 tasks. Three first tasks should be done at first and only once.
     
 
   
-## ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) **Hint:** To check if the codes work properly.
+## ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) **Hint:** To check if the codes work properly (Do this firstly)
 
 + For Examples 1a, 1b, 2, and 3a, we run **main.ipynb** or **main.py**.
 
@@ -123,10 +123,12 @@ To do, we have 5 tasks. Three first tasks should be done at first and only once.
     fprefix = "ex02a"       # run Example 2
     #fprefix = "ex03a"
     ```
-    + then run the code as in 4a) or 4b).
+    + run the code as in 4a) or 4b).
 
-+ For Example  3b, we run **main_ex3b.py** (or **main_ex3b.ipynb**).
-    + set the value of **luref** to be small, e.g. **luref = 3**
++ For Example  3b, we run **main_ex3b.py** or **main_ex3b.ipynb**.
+    + set the value of **luref** to be small, e.g. **luref = 3**.
+
+  Make sure that **xout** already has results of Example 3a, i.e. files with the prefix **ex03a-**
   
 
 
