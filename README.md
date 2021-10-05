@@ -171,7 +171,7 @@ To do, we have 5 tasks. Three first tasks should be done at first and only once.
   
 ## Notes on Examples 1a and 1b:
 
-  At the end of the computation process, some warnings about _**"divide by zero encountered"**_ apprear. The reason is U_N = Uexact = 0 for all N, therefore all related error estimates are also zero. These messages should not crash the program. Please ignore them. 
+At the end of the computation process, some warnings about _**"divide by zero encountered"**_ apprear. The reason is U_N = Uexact = 0 for all N, therefore all related error estimates are also zero. These messages won't crash the program. So, ignore them. 
 
 ## **References:**
 
