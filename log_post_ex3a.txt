@@ -1,0 +1,45 @@
+
+Before:
+epsilon = 1e-10
+a       = 0
+b       = 10
+p       = 0.9
+q       = -8.999999999999996
+alpha   = 0.777
+beta    = 0.888
+lambda  = 0.555
+eta1    = 1.0
+eta2    = 1.0
+sigma   = 0.333
+Parameters were synchronized. Continue.
+
+After:
+epsilon = 1e-10
+a       = 1
+b       = 2.718281828459045
+p       = 1.8
+q       = 2.25
+alpha   = 0.6
+beta    = 0.6666666666666666
+lambda  = 0.2
+eta1    = 1.0
+eta2    = 2.0
+sigma   = 0.5
+[1.000e+01 2.000e+01 4.000e+01 8.000e+01 1.600e+02 3.200e+02 6.400e+02
+ 1.280e+03 2.560e+03 5.120e+03 1.024e+04]
+Loading the best numerical solution ...
+1.0 2.718281828459045
+-0.8262563793013273 0.4131281896506638
+        10,  Max|Uexa - U_N| =  3.689E-01,  L2 |Uexa - U_N| =  1.560E-01
+        20,  Max|Uexa - U_N| =  2.502E-01,  L2 |Uexa - U_N| =  9.763E-02
+        40,  Max|Uexa - U_N| =  1.691E-01,  L2 |Uexa - U_N| =  6.376E-02
+        80,  Max|Uexa - U_N| =  1.091E-01,  L2 |Uexa - U_N| =  4.151E-02
+       160,  Max|Uexa - U_N| =  6.378E-02,  L2 |Uexa - U_N| =  2.711E-02
+       320,  Max|Uexa - U_N| =  4.144E-02,  L2 |Uexa - U_N| =  1.743E-02
+       640,  Max|Uexa - U_N| =  2.614E-02,  L2 |Uexa - U_N| =  1.092E-02
+      1280,  Max|Uexa - U_N| =  1.563E-02,  L2 |Uexa - U_N| =  6.503E-03
+      2560,  Max|Uexa - U_N| =  8.411E-03,  L2 |Uexa - U_N| =  3.483E-03
+      5120,  Max|Uexa - U_N| =  3.435E-03,  L2 |Uexa - U_N| =  1.417E-03
+     10240,  Max|Uexa - U_N| =  0.000E+00,  L2 |Uexa - U_N| =  0.000E+00
+[0.36889478 0.25016416 0.16912356 0.10905479 0.06377778 0.0414366
+ 0.02613725 0.01563441 0.00841135 0.00343464 0.        ]
