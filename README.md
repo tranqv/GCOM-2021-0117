@@ -50,9 +50,11 @@ To do, we have 5 tasks. Three first tasks should be done at first and only once.
     + main_ex03a.py  Example 3a, without noise,
     + main_ex03b.py  Example 3b, with noise to the input. 
 
-  All programs perform **Procedure (P)** in Section 4 of the manuscript. 
+  All programs perform **Procedure (P)** in Section 4 of the manuscript. Read comments included in and messages inside the **print()** function of the codes to gain information of the computation steps, and check with output to the screen when executing.
   
-  Read comments included in and messages inside the **print()** function of the codes to gain information of the computation steps, and check with output to the screen when executing.
+  Setting for each of the examples is given in files **inc_ex??.py**, such as **inc_ex1a.py**, **inc_ex1b.py**, **inc_ex2a.py**, **inc_ex3a.py**, **inc_ex3b.py**.
+  
+  Auxiliary procedures for the computation are defined in **inc_sub2.py**, while the ones for plotting are in **inc_post.py**
  
   ## **4) Run the test cases**
   
