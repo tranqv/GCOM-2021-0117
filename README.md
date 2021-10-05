@@ -60,11 +60,11 @@ To do, we have 5 tasks. Three first tasks should be done at first and only once.
   
   Auxiliary procedures for the computation are defined in **inc_sub2.py**, while the ones for plotting are in **inc_post.py**.
   
-###  b) **FIGS**
+###  b) **zfigs**
 
   We provide figures in JPG, which can be compared with ones output from the codes running on other computers.
   
-###  c) **XOUT**
+###  c) **zxout**
 
   We provide numerical results in CSV format, which can be used to check with the output on other computers.
  
@@ -121,8 +121,8 @@ To do, we have 5 tasks. Three first tasks should be done at first and only once.
     + **xout** saves the results (numerical mild soluions, error estimates) in ascii format, i.e., .txt and .csv.
     
   + The **main_ex03a.py** (or **main_ex03a.ipynb**) must be excecuted in advance of **main_ex03b.py** (or **main_ex03b.ipynb**) since the latter program needs the output from the preceeding one, while the others (for Examples 1a, 1b, 2, and 3a) can run independently.
-  + Check messages output to your screen with the **log_*.txt** files.
-  + Check results in **figs** and **xout** with ones in **FIGS** and **XOUT**, respectively.
+  + Check messages output to your screen with the **log*.txt** files.
+  + Check results in **figs** and **xout** with ones in **zfigs** and **zxout**, respectively.
       
 ## **5. Postprocessing**
    
@@ -165,7 +165,7 @@ To do, we have 5 tasks. Three first tasks should be done at first and only once.
   
 ## Notes on Examples 1a and 1b:
 
-  At the end of the computation process, some warnings about "divide by zero encountered" apprear. The reason is U_N = Uexact = 0 for all N, therefore all related error estimates are also zero. These messages should not crash the program. Please ignore them. 
+  At the end of the computation process, some warnings about _**"divide by zero encountered"**_ apprear. The reason is U_N = Uexact = 0 for all N, therefore all related error estimates are also zero. These messages should not crash the program. Please ignore them. 
 
 ## **References:**
 
