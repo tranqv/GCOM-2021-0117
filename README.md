@@ -132,7 +132,9 @@ To do, we have 5 tasks. Three first tasks should be done at first and only once.
 
   Make sure that the folder **xout** does already exists and includes the results of Example 3a, i.e. files with the prefix **ex03a**. 
   
+## Notes on Examples 1a and 1b:
 
+  When finishing the computation, please IGNORE all the warnings due to "divide by zero encountered". The reason is U_N = Uexact = 0 for all N, therefore, all related errors are also zero. These messages do not cause any errors.
 
 ## **References:**
 
