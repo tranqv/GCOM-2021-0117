@@ -52,7 +52,7 @@ To do, we have 5 tasks. Three first tasks should be done at first and only once.
 
   All programs perform **Procedure (P)** in Section 4 of the manuscript. 
   
-  Read comments included in and messages inside the **print** command of the codes to gain informations and check with output to the screen when executing.
+  Read comments included in and messages inside the **print()** function of the codes to gain information of the computation steps, and check with output to the screen when executing.
  
   ## **4) Run the test cases**
   
