@@ -117,7 +117,7 @@ To do, we have 5 tasks. Three first tasks should be done at first and only once.
   It will be done quickly.
   
   + At the first time we run one of the above commands, two folders, i.e., **figs** and **xout**, will be created.
-    + **figs** saves figures from all the main programs
+    + **figs** saves figures from all the main programs in both JPG and PDF formats.
     + **xout** saves the results (numerical mild soluions, error estimates) in ascii format, i.e., .txt and .csv.
     
   + The **main_ex03a.py** (or **main_ex03a.ipynb**) must be excecuted in advance of **main_ex03b.py** (or **main_ex03b.ipynb**) since the latter program needs the output from the preceeding one, while the others (for Examples 1a, 1b, 2, and 3a) can run independently.
