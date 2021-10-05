@@ -60,7 +60,7 @@ To do, we have 5 tasks. Three first tasks should be done at first and only once.
   
   a) **Method 1:** Using Jupyter Notebook (installed together with Anaconda)
   
-  Change directory to **GCOM-2021-0117-main**, and to **code**, then we clisk on one of the following files
+  Change directory to **GCOM-2021-0117-main**, and to **code**, then we click on one of the following files
   
   + **main_ex01a.ipynb**:  Example 1a,  
   + **main_ex01b.ipynb**:  Example 1b, 
@@ -71,12 +71,6 @@ To do, we have 5 tasks. Three first tasks should be done at first and only once.
   They are copied from the corresponding file **main_ex*.py** to run in Jupyter Notebook.
 
   Click to choose a file, move to the new tab, then click on _Kernel_ and _Restart & Run All_ to execute the program.
-  
-  ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+)
-  **Hint:** We should run **main.ipynb** firstly to check if the codes work properly. After opening this file in a new tab, 
-  + set the value of **lmax** moderately, e.g. **lmax = 3**, and 
-  + assign the value of **fprefix** as it was prepared inside the code, then 
-  + click on _Kernel_ and _Restart & Run All_ to execute the program.
 
   b) **Method 2:** Using Anaconda Prompt (Windows) or Terminal (Linux)
   
@@ -92,25 +86,8 @@ To do, we have 5 tasks. Three first tasks should be done at first and only once.
       python3 main_ex03b.py
   ```
    where the first command is for Example 1a, and so on.
-  
-  ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+)
-  **Hint:** We should run the program **main.py** firstly to check whether the codes work properly or not. 
-  + open this file with a text editor,
-  + set the value of **lmax** moderately, e.g. **lmax = 3**, and 
-  + assign the value of **fprefix** as it was prepared inside the code, e.g. 
-    ```python
-    #fprefix = "ex01a"
-    #fprefix = "ex01b"
-    fprefix = "ex02a"       # run Example 2
-    #fprefix = "ex03a"
-    ```
-    then 
-  + perform this command
-``` 
-  python3 main.py
-```
 
-  **Notes:**
+### **Notes:**
   + At the first time we run one of the above commands, two folders, i.e., **figs** and **xout**, will be created.
     + **figs** saves figures from all the main programs
     + **xout** saves the results (numerical mild soluions, error estimates) in ascii format, i.e., .txt and .csv.
@@ -131,6 +108,27 @@ To do, we have 5 tasks. Three first tasks should be done at first and only once.
   Note that, in **main_post.py** (or **main_post.ipynb**), we must set the values of **fprefix** and **lmax** accordingly.
   While all figures for Example 3b were already made when we ran **main_ex03b.py** (or **main_ex03b.ipynb**).
     
+
+  
+## ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) **Hint:** To check if the codes work properly.
+
++ For Examples 1a, 1b, 2, and 3a, we run **main.ipynb** or **main.py**.
+
+    After opening this file in a new tab, 
+    + set the value of **lmax** moderately, e.g. **lmax = 3**, and 
+    + assign the value of **fprefix** as it was prepared inside the code, e.g.
+    ```python
+    #fprefix = "ex01a"
+    #fprefix = "ex01b"
+    fprefix = "ex02a"       # run Example 2
+    #fprefix = "ex03a"
+    ```
+    + then run the code as in 4a) or 4b).
+
++ For Example  3b, we run **main_ex3b.py** (or **main_ex3b.ipynb**).
+    + set the value of **luref** to be small, e.g. **luref = 3**
+  
+
 
 ## **References:**
 
