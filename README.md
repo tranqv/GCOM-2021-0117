@@ -99,7 +99,7 @@ To do, we have 5 tasks. Three first tasks should be done at first and only once.
   ```
    where the first command is for Example 1a, and so on.
 
-### **Important Notes:**
+### **IMPORTANT NOTES:**
   + Inside the codes above, the variable **lmax** plays important role. It is to define the mesh sizes:
   ```
       N_l = 10 * 2**l 
