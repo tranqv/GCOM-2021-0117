@@ -1,6 +1,6 @@
 # GCOM-2021-0117
 
-#### **On mild solutions of the Laplacian fractional Langevin equations with anti-periodic type boundary conditions**
+## **On mild solutions of the Laplacian fractional Langevin equations with anti-periodic type boundary conditions**
 
 The python codes here are to perform the numerical experiments:
 
@@ -26,7 +26,7 @@ To do, we have 5 tasks. Three first tasks should be done at first and only once.
   + Guide:     
     + https://docs.anaconda.com/anaconda/install/linux/
 
-**2) Install Python libraries**
+## **2) Install Python libraries**
 
   a) Open a Command Prompt (Windows) or Terminal (Linux)
   
@@ -36,7 +36,7 @@ To do, we have 5 tasks. Three first tasks should be done at first and only once.
     conda install scipy
     conda install matplotlib
 
-**3) Obtain this package**
+## **3) Obtain this package**
 
   Download https://codeload.github.com/tranqv/GCOM-2021-0117/zip/refs/heads/main
   
@@ -54,7 +54,7 @@ To do, we have 5 tasks. Three first tasks should be done at first and only once.
   
   Read comments inside the codes to gain informations and check with output to the screen when executing.
  
-  **4) Run the test cases**
+  ## **4) Run the test cases**
   
   a) **Method 1:** Using Jupyter Notebook (installed together with Anaconda)
   
@@ -112,7 +112,7 @@ To do, we have 5 tasks. Three first tasks should be done at first and only once.
     + **xout** saves the results (numerical mild soluions, error estimates) in ascii format, i.e., .txt and .csv.
   + The **main_ex03a.py** (or **main_ex03a.ipynb**) must be excecuted in advance of **main_ex03b.py** (or **main_ex03b.ipynb**) since the latter program needs the output from the preceeding one, while the others (for Examples 1a, 1b, 2, and 3a) can run independently.
       
-**5) Postprocessing**
+## **5) Postprocessing**
    
   After we finish running the examples, we can run 
   
