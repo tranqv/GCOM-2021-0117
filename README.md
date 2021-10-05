@@ -44,13 +44,13 @@ To do, we have 5 tasks. Three first tasks should be done at first and only once.
   
   Inside the subdirectory **code** of the folder **GCOM-2021-0117-main**, three examples are prepared with their main programs as follows:
      
-    + main_ex01a.py  Example 1a,  
-    + main_ex01b.py  Example 1b, 
-    + main_ex02a.py  Example 2,  
-    + main_ex03a.py  Example 3a, without noise,
-    + main_ex03b.py  Example 3b, with noise to the input. 
+  + **main_ex01a.py**:  Example 1a,  
+  + **main_ex01b.py**:  Example 1b, 
+  + **main_ex02a.py**:  Example 2,  
+  + **main_ex03a.py**:  Example 3a, without noise,
+  + **main_ex03b.py**:  Example 3b, with noise to the input. 
 
-  All programs perform **Procedure (P)** in Section 4 of the manuscript. Read comments included in and messages inside the **print()** function of the codes to gain information of the computation steps, and check with output to the screen when executing.
+  All the programs above perform **Procedure (P)** in Section 4 of the manuscript. Read comments included in and messages inside the **print()** function of the codes to gain information of the computation steps, and check with output to the screen when executing.
   
   Setting for each of the examples is given in files **inc_ex??.py**, such as **inc_ex1a.py**, **inc_ex1b.py**, **inc_ex2a.py**, **inc_ex3a.py**, **inc_ex3b.py**.
   
