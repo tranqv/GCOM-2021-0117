@@ -179,7 +179,7 @@ To do, we have 5 tasks. Three first tasks should be done at first and only once.
 + [2] https://github.com/tranqv/Mittag-Leffler-function-and-its-derivative
 + [3] https://se.mathworks.com/matlabcentral/fileexchange/48154-the-mittag-leffler-function
 
-Python libraries: 
+Python distribution platform and libraries: 
 
 + [4] https://www.anaconda.com/
 + [5] https://numpy.org/doc/stable/reference/
