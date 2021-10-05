@@ -110,7 +110,7 @@ To do, we have 5 tasks. Three first tasks should be done at first and only once.
     
 
   
-## ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) **Hint:** To check if the codes work properly (Do this firstly)
+## ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) **Hint:** Do this in advance to check if the codes work properly.
 
 + For Examples 1a, 1b, 2, and 3a, we run **main.ipynb** or **main.py**.
 
