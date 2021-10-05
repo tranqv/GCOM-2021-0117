@@ -108,16 +108,16 @@ s_eta1   = c_eta1
 s_eta2   = c_eta2   
 
 
-Uexa = np.zeros(N)
-
 if ( HaveExact ) :  
     Uexa = f_uexact ( t )
+    texa = t.copy()
 else:
 #   Pick up the reference:
     funame = os.path.join( OUTDIR, furef + str('-Umild') + intshift(luref,3) )
     print ( 'Loading Uexa as the best numerical solution ...\n\t' + funame ) 
     tE, UE = load_U ( luref, funame )
-    Uexa = UE.copy() 
+    Ftmp = scipy_akima ( tE, UE )
+    Uexa = Ftmp ( t )
     tE = None 
     uE = None 
 #
@@ -340,16 +340,13 @@ for n in range ( 0, nmax ):
 #       Computing Err[n] for l = 1,2,...
 #  
         e0, e2 = f_errint ( t_int, t_sav, U_sav, t, Unew )
-
         a_Err2[n] = e2 
-
         a_Err0[n] = max( e0, MachEps )
 
         print ( "\n"  + "-" * 70  )
         print ( "n = %2d, Err = | U_{delta_{n}} - U_{delta_{n-1}} |:"%( n ) )
         print ( "\tMaxErr = %16.9e, L2-Err = %16.9e"%( e0, e2 ) )
         print ( "-" * 70  )
-
 #        
         t_sav = t.copy()
         U_sav = Unew.copy()
