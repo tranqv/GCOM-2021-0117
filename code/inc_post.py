@@ -483,9 +483,7 @@ def load_U ( l, funame, report=False ):
     return r_MildSol ( funame, ext='txt' )
 #
 
-#
-#   basic tool:
-#
+
 def plot_Sols_prime ( t, U, te, Ue, labelU="???", labelUe="???", \
     fname=None, report=True ):
 #
@@ -526,9 +524,7 @@ def plot_Sols_prime ( t, U, te, Ue, labelU="???", labelUe="???", \
     return None 
 #
 
-#
-#   legacy 
-#
+
 def plot_Sols ( t, U, te, Ue, fname=None, report=True ):
 #
 #  Plotting  
@@ -769,4 +765,4 @@ def plot_dU ( xi, dU, dUref=None, fname=None, report=True ):
     plt.close('all')
     return None 
 #
-
+#
