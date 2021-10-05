@@ -121,7 +121,7 @@ To do, we have 5 tasks. Three first tasks should be done at first and only once.
     ```python
     #fprefix = "ex01a"
     #fprefix = "ex01b"
-    fprefix = "ex02a"       # run Example 2
+    fprefix = "ex02a"       # remove the comment "#" to run Example 2
     #fprefix = "ex03a"
     ```
     + run the code as in 4a) Method 1 or 4b) Method 2.
