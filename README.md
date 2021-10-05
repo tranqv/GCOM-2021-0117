@@ -52,7 +52,7 @@ To do, we have 5 tasks. Three first tasks should be done at first and only once.
 
   All the programs above perform **Procedure (P)** in Section 4 of the manuscript. Read comments included in and messages inside the **print()** function of the codes to gain information of the computation steps, and check with output to the screen when executing.
   
-  Setting for each of the examples is given in file **inc_ex??.py**, i.e., **inc_ex1a.py**, **inc_ex1b.py**, **inc_ex2a.py**, **inc_ex3a.py**, **inc_ex3b.py**.
+  Setting for each of the examples is given in file **inc_ex*.py**, i.e., **inc_ex1a.py**, **inc_ex1b.py**, **inc_ex2a.py**, **inc_ex3a.py**, **inc_ex3b.py**.
   
   Auxiliary procedures for the computation are defined in **inc_sub2.py**, while the ones for plotting are in **inc_post.py**.
  
@@ -68,13 +68,13 @@ To do, we have 5 tasks. Three first tasks should be done at first and only once.
   + **main_ex03a.ipynb**:  Example 3a, without noise,
   + **main_ex03b.ipynb**:  Example 3b, with noise to the input. 
 
-  They are copied from the corresponding file **main_ex???.py** to run in Jupyter Notebook.
+  They are copied from the corresponding file **main_ex*.py** to run in Jupyter Notebook.
 
   Click to choose a file, move to the new tab, then click on _Kernel_ and _Restart & Run All_ to execute the program.
   
   ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+)
   **Hint:** We should run **main.ipynb** firstly to check if the codes work properly. After opening this file in a new tab, 
-  + set the value of **lmax** moderately, e.g. **lmax = 5**, and 
+  + set the value of **lmax** moderately, e.g. **lmax = 3**, and 
   + assign the value of **fprefix** as it was prepared inside the code, then 
   + click on _Kernel_ and _Restart & Run All_ to execute the program.
 
@@ -96,7 +96,7 @@ To do, we have 5 tasks. Three first tasks should be done at first and only once.
   ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+)
   **Hint:** We should run the program **main.py** firstly to check whether the codes work properly or not. 
   + open this file with a text editor,
-  + set the value of **lmax** moderately, e.g. **lmax = 5**, and 
+  + set the value of **lmax** moderately, e.g. **lmax = 3**, and 
   + assign the value of **fprefix** as it was prepared inside the code, e.g. 
     ```python
     #fprefix = "ex01a"
