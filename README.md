@@ -180,7 +180,9 @@ To do, we have 5 tasks. Three first tasks should be done at first and only once.
 + [3] https://se.mathworks.com/matlabcentral/fileexchange/48154-the-mittag-leffler-function
 
 Python libraries: 
-+ [4] https://numpy.org/doc/stable/reference/
-+ [5] https://docs.scipy.org/doc/scipy/reference/interpolate.html 
-+ [6] https://docs.scipy.org/doc/scipy/reference/special.html
-+ [7] https://matplotlib.org/
+
++ [4] https://www.anaconda.com/
++ [5] https://numpy.org/doc/stable/reference/
++ [6] https://docs.scipy.org/doc/scipy/reference/interpolate.html 
++ [7] https://docs.scipy.org/doc/scipy/reference/special.html
++ [8] https://matplotlib.org/
