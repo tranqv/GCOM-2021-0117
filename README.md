@@ -15,7 +15,6 @@ To do, we have 5 tasks. Three first tasks should be done at first and only once.
 ## **1. Install Anaconda for Python 3** 
 
   a) Windows: 
-  
   + https://repo.anaconda.com/archive/Anaconda3-2021.05-Windows-x86_64.exe
   + Guide: 
       + https://docs.anaconda.com/anaconda/install/windows/
@@ -25,6 +24,12 @@ To do, we have 5 tasks. Three first tasks should be done at first and only once.
   + https://repo.anaconda.com/archive/Anaconda3-2021.05-Linux-x86_64.sh
   + Guide:     
     + https://docs.anaconda.com/anaconda/install/linux/
+
+  c) MacOS:
+  + https://repo.anaconda.com/archive/Anaconda3-2021.05-MacOSX-x86_64.sh
+  + Guide:
+    + https://docs.anaconda.com/anaconda/install/mac-os/
+
 
 ## **2. Install Python libraries**
 
@@ -80,7 +85,7 @@ To do, we have 5 tasks. Three first tasks should be done at first and only once.
   + **main_ex03a.ipynb**:  Example 3a, without noise,
   + **main_ex03b.ipynb**:  Example 3b, with noise to the input. 
 
-  They are copied from the corresponding file **main_ex*.py** to run in Jupyter Notebook.
+  They are copied from the corresponding file **main_ex???.py** to run in Jupyter Notebook.
 
   Click to choose a file, move to the new tab, then click on _Kernel_ and _Restart & Run All_ to execute the program.
 
@@ -122,7 +127,7 @@ To do, we have 5 tasks. Three first tasks should be done at first and only once.
     
   + The **main_ex03a.py** (or **main_ex03a.ipynb**) must be excecuted in advance of **main_ex03b.py** (or **main_ex03b.ipynb**) since the latter program needs the output from the preceeding one, while the others (for Examples 1a, 1b, 2, and 3a) can run independently.
   + When running for Example 3b (**main_ex03b.py** or **main_ex03b.ipynb**) we must ensure that **luref <= lmax-1**, where **lmax** was mentioned previously.
-  + Check messages output to your screen with the **log*.txt** files.
+  + Check messages output to your screen with the **log_???.txt** files.
   + Check results in **figs** and **xout** with ones in **zfigs** and **zxout**, respectively.
       
 ## **5. Postprocessing**
