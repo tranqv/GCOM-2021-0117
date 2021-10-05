@@ -12,7 +12,7 @@ The python codes here are to perform the numerical experiments:
 
 To do, we have 5 tasks. Three first tasks should be done at first and only once. We will focus only on two last ones. 
 
-#### **1) Install Anaconda for Python 3** 
+## **1) Install Anaconda for Python 3** 
 
   a) Windows: 
   
