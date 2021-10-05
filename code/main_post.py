@@ -32,11 +32,11 @@ from inc_sub2 import *
 
 #fprefix = "ex01a"
 #fprefix = "ex01b"
-fprefix = "ex02a"
-#fprefix = "ex03a"
+#fprefix = "ex02a"
+fprefix = "ex03a"
 
 
-lmax = 11
+lmax = 3 
 
 
 #
@@ -46,6 +46,7 @@ plotReport = True
 plotSol = True 
 plotErr = True  
 plotdU  = False 
+#plotdU  = True  
 
 #
 # To define some important paths for output:
