@@ -44,7 +44,7 @@ To do, we have 5 tasks. Three first tasks should be done at first and only once.
   
   There are three subdirectories: 
   
-###  a) **code**:
+###  a) **code**
     
   Three examples are prepared with their main programs as follows:
      
@@ -60,13 +60,13 @@ To do, we have 5 tasks. Three first tasks should be done at first and only once.
   
   Auxiliary procedures for the computation are defined in **inc_sub2.py**, while the ones for plotting are in **inc_post.py**.
   
-###  b) **FIGS**: 
+###  b) **FIGS**
 
-  Saving figures in JPG, which can be compared with ones output from the codes running on other computers.
+  We provide figures in JPG, which can be compared with ones output from the codes running on other computers.
   
-###  c) **XOUT**: 
+###  c) **XOUT**
 
-  Including numerical results in CSV format, which can be used to check with the output on other computers.
+  We provide numerical results in CSV format, which can be used to check with the output on other computers.
  
   ## **4. Run the test cases**
   
