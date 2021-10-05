@@ -68,7 +68,7 @@ To do, we have 5 tasks. Three first tasks should be done at first and only once.
 
   We provide numerical results in CSV format, which can be used to check with the output on other computers.
  
-  ## **4. Run the test cases**
+  ## **4. Run the codes**
   
   a) **Method 1:** Using Jupyter Notebook (installed together with Anaconda)
   
