@@ -112,10 +112,11 @@ To do, we have 5 tasks. Three first tasks should be done at first and only once.
   
 ## ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) **Hint:** Do this in advance to check if the codes work properly.
 
-+ For Examples 1a, 1b, 2, and 3a, we run **main.ipynb** or **main.py**.
++ For Examples 1a, 1b, 2, and 3a, we should run **main.ipynb** or **main.py**.
 
-    After opening this file in a new tab, 
-    + set the value of **lmax** moderately, e.g. **lmax = 3**, and 
+    After opening this file (i.e. with Jupyter Notebook for **main.ipynb** or with a text editor for **main.py**)
+    
+    + set the value of **lmax** moderately, e.g. **lmax = 3**, 
     + assign the value of **fprefix** as it was prepared inside the code, e.g.
     ```python
     #fprefix = "ex01a"
@@ -123,9 +124,10 @@ To do, we have 5 tasks. Three first tasks should be done at first and only once.
     fprefix = "ex02a"       # run Example 2
     #fprefix = "ex03a"
     ```
-    + run the code as in 4a) or 4b).
+    + run the code as in 4a) Method 1 or 4b) Method 2.
 
-+ For Example  3b, we run **main_ex3b.py** or **main_ex3b.ipynb**.
++ For Example  3b, we should run **main_ex3b.py** or **main_ex3b.ipynb**.
+
     + set the value of **luref** to be small, e.g. **luref = 3**.
 
   Make sure that **xout** already has results of Example 3a, i.e. files with the prefix **ex03a-**
