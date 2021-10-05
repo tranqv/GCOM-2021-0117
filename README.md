@@ -134,7 +134,7 @@ To do, we have 5 tasks. Three first tasks should be done at first and only once.
   
 ## Notes on Examples 1a and 1b:
 
-  When finishing the computation, please IGNORE all the warnings due to "divide by zero encountered". The reason is U_N = Uexact = 0 for all N, therefore, all related errors are also zero. These messages do not cause any errors.
+  When finishing the computation, please IGNORE all warnings about "divide by zero encountered". The reason is U_N = Uexact = 0 for all N, therefore all related error estimates are also zero. These messages should not crash the program.
 
 ## **References:**
 
