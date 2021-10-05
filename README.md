@@ -99,10 +99,27 @@ To do, we have 5 tasks. Three first tasks should be done at first and only once.
   ```
    where the first command is for Example 1a, and so on.
 
-### **Notes:**
+### **Important Notes:**
+  + Inside the codes above, the variable **lmax** plays important role. It is to define the mesh sizes:
+  ```
+      N_l = 10 * 2**l 
+  ```
+  for l = 0,1,2,...,lmax-1. Therefore, to run fully define 
+  
+  ```python
+    lmax = 11
+  ```
+  But it will take very long time. To run partly for testing the codes, define
+  
+  ```python
+    lmax = 3
+  ```
+  It will be done quickly.
+  
   + At the first time we run one of the above commands, two folders, i.e., **figs** and **xout**, will be created.
     + **figs** saves figures from all the main programs
     + **xout** saves the results (numerical mild soluions, error estimates) in ascii format, i.e., .txt and .csv.
+    
   + The **main_ex03a.py** (or **main_ex03a.ipynb**) must be excecuted in advance of **main_ex03b.py** (or **main_ex03b.ipynb**) since the latter program needs the output from the preceeding one, while the others (for Examples 1a, 1b, 2, and 3a) can run independently.
   + Check messages output to your screen with the **log_*.txt** files.
   + Check results in **figs** and **xout** with ones in **FIGS** and **XOUT**, respectively.
