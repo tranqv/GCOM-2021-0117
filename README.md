@@ -130,7 +130,7 @@ To do, we have 5 tasks. Three first tasks should be done at first and only once.
 
     + set the value of **luref** to be small, e.g. **luref = 3**.
 
-  Make sure that **xout** already has results of Example 3a, i.e. files with the prefix **ex03a-**
+  Make sure that the folder **xout** does already exists and includes the results of Example 3a, i.e. files with the prefix **ex03a**. 
   
 
 
