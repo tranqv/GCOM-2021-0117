@@ -60,15 +60,17 @@ To do, we have 5 tasks. Three first tasks should be done at first and only once.
   
   a) **Method 1:** Using Jupyter Notebook (installed together with Anaconda)
   
-  Change directory to **GCOM-2021-0117-main**, and to **code**, then we can see the following files:
+  Change directory to **GCOM-2021-0117-main**, and to **code**, then we clisk on one of the following files
   
-      main_ex01a.ipynb
-      main_ex01b.ipynb
-      main_ex02a.ipynb
-      main_ex03a.ipynb
-      main_ex03b.ipynb
-  
-  Click to choose a file, move to the new tab, click on _Kernel_ and _Restart & Run All_ to execute the program.
+  + **main_ex01a.ipynb**:  Example 1a,  
+  + **main_ex01b.ipynb**:  Example 1b, 
+  + **main_ex02a.ipynb**:  Example 2,  
+  + **main_ex03a.ipynb**:  Example 3a, without noise,
+  + **main_ex03b.ipynb**:  Example 3b, with noise to the input. 
+
+  They are copied from the corresponding file **main_ex???.py** to run in Jupyter Notebook.
+
+  Click to choose a file, move to the new tab, then click on _Kernel_ and _Restart & Run All_ to execute the program.
   
   ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+)
   **Hint:** We should run **main.ipynb** firstly to check if the codes work properly. After opening this file in a new tab, 
