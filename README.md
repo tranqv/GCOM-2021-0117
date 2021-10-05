@@ -40,9 +40,13 @@ To do, we have 5 tasks. Three first tasks should be done at first and only once.
 
   Download https://codeload.github.com/tranqv/GCOM-2021-0117/zip/refs/heads/main
   
-  and extract the zip file. One should have **GCOM-2021-0117-main** folder.
+  and extract the zip file. One should have **GCOM-2021-0117-main** folder. 
   
-  Inside the subdirectory **code** of the folder **GCOM-2021-0117-main**, three examples are prepared with their main programs as follows:
+  There are three subdirectories: 
+  
+  a) **code**:
+    
+  Three examples are prepared with their main programs as follows:
      
   + **main_ex01a.py**:  Example 1a,  
   + **main_ex01b.py**:  Example 1b, 
@@ -55,6 +59,10 @@ To do, we have 5 tasks. Three first tasks should be done at first and only once.
   Setting for each of the examples is given in file **inc_ex*.py**, i.e., **inc_ex1a.py**, **inc_ex1b.py**, **inc_ex2a.py**, **inc_ex3a.py**, **inc_ex3b.py**.
   
   Auxiliary procedures for the computation are defined in **inc_sub2.py**, while the ones for plotting are in **inc_post.py**.
+  
+  b) **FIGS**: saves figures in JPG, which can be compared with ones output from the codes running on other computers.
+  
+  c) **XOUT**: saves numerical results in CSV format, which can be used to check with the output on other computers.
  
   ## **4. Run the test cases**
   
