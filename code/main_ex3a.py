@@ -44,7 +44,7 @@ from inc_sub2   import *
 fprefix = "ex03a"
 #fprefix = "ex03b"      # SEPARATED. Use main_ex3b.py
 
-lmax = 11
+lmax = 4
 
 #
 
