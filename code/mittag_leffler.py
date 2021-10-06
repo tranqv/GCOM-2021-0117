@@ -247,26 +247,6 @@ def OptimalParam_RU(t, phi_s_star_j, pj, log_epsilon):
 
     return muj, hj, Nj
 #
-#
-#
-
-def ml_(z, alpha, beta=1., gama=1.):
-#
-    #eps = np.finfo(np.float64).eps  # it is too small
-    eps = 1.0e-15
-    if np.real(alpha) <= 0 or np.real(gama) <= 0 or np.imag(alpha) != 0. \
-       or np.imag(beta) != 0. or np.imag(gama) != 0.:
-        raise ValueError('ALPHA and GAMA must be real and positive. BETA must be real.')
-    if np.abs(gama-1.) > eps:
-        if alpha > 1.:
-            raise ValueError('GAMMA != 1 requires 0 < ALPHA < 1')
-        if (np.abs(np.angle(np.repeat(z, np.abs(z) > eps))) <= alpha*np.pi).any():
-            raise ValueError('|Arg(z)| <= alpha*pi')
-
-    return np.vectorize(ml, [np.float64])(z, alpha, beta, gama)
-#
-#
-#
 
 def ml (z, alpha, beta=1., gama=1.):
 #
