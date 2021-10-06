@@ -109,7 +109,7 @@ To do, we have 5 tasks. Three first tasks should be done at first and only once.
   ```
       N_l = 10 * 2**l 
   ```
-  for l = 0,1,2,...,lmax-1. Therefore, to run fully define 
+  for l = 0,1,2,...,lmax-1. Therefore, to run fully, define 
   
   ```python
     lmax = 11
@@ -119,7 +119,6 @@ To do, we have 5 tasks. Three first tasks should be done at first and only once.
   ```python
     lmax = 4
   ```
-  It will be done quickly.
   
   + At the first time we run one of the above commands, two folders, i.e., **figs** and **xout**, will be created.
     + **figs** saves figures from all the main programs in both JPG and PDF formats.
