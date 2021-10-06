@@ -117,7 +117,7 @@ To do, we have 5 tasks. Three first tasks should be done at first and only once.
   But it will take very long time. To run partly for testing the codes, define
   
   ```python
-    lmax = 3
+    lmax = 4
   ```
   It will be done quickly.
   
@@ -147,14 +147,14 @@ To do, we have 5 tasks. Three first tasks should be done at first and only once.
     
 
   
-## ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) **Hint:** What we should do in advance to check if the codes work properly
+## ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) **Hint:** To check if the codes work properly
 
 + For Examples 1a, 1b, 2, and 3a, we should run **main.ipynb** or **main.py**.
 
     After opening this file (i.e. with Jupyter Notebook for **main.ipynb** or with a text editor for **main.py**)
     
-    + set the value of **lmax** moderately, e.g. **lmax = 3**, 
-    + assign the value of **fprefix** as it was prepared inside the code, e.g.
+    + set the value of **lmax** moderately, e.g., **lmax = 4**, 
+    + assign the value of **fprefix** as it was prepared inside the code, e.g.,
     ```python
     #fprefix = "ex01a"
     #fprefix = "ex01b"
@@ -165,7 +165,7 @@ To do, we have 5 tasks. Three first tasks should be done at first and only once.
 
 + For Example  3b, we should run **main_ex3b.py** or **main_ex3b.ipynb**.
 
-    + set the value of **luref** to be small, e.g. **luref = 2**. (We must ensure that **luref <= lmax-1**)
+    + set the value of **luref** to be small, e.g. **luref = 3**. (We must ensure that **luref <= lmax-1**)
 
   Make sure that the folder **xout** does already exists and includes the results of Example 3a, i.e. files with the prefix **ex03a**. 
   
