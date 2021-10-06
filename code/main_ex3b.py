@@ -32,10 +32,10 @@ fprefix = "ex03b"
 
 #
 # For N_l = 10 * 2^(l) for l=0,lmax-1 
-#   luref = 3    To check if the code works properly.
+#   luref = 3    To check if the code works properly. luref <= lmax-1
 #   luref = 7    To run for the manuscript. But it takes time! 
 
-luref = 7
+luref = 3
 
 
 #
