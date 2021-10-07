@@ -125,7 +125,7 @@ To do, we have 5 tasks. Three first tasks should be done at first and only once.
     + **xout** saves the results (numerical mild soluions, error estimates) in ascii format, i.e., .txt and .csv.
     
   + The **main_ex03a.py** (or **main_ex03a.ipynb**) must be excecuted in advance of **main_ex03b.py** (or **main_ex03b.ipynb**) since the latter program needs the output from the preceeding one, while the others (for Examples 1a, 1b, 2, and 3a) can run independently.
-  + When running for Example 3b (**main_ex03b.py** or **main_ex03b.ipynb**) we must ensure that **luref <= lmax-1**, where **lmax** was mentioned previously.
+  + When running for Example 3b (**main_ex03b.py** or **main_ex03b.ipynb**) we must ensure that **luref ** is less than or equal to **lmax-1**, where **lmax** was mentioned previously.
   + Check messages output to your screen with the **log_???.txt** files.
   + Check results in **figs** and **xout** with ones in **zfigs** and **zxout**, respectively.
       
