@@ -139,12 +139,9 @@ To do, we have 5 tasks. Three first tasks should be done at first and only once.
   
       python3 main_post.py
       
-  in Anaconda Prompt (Windows) or Terminal (Linux) to plot the results of Examples 1a, 1b, 2, 3a. 
+  in Anaconda Prompt (Windows) or Terminal (Linux) to plot the results of Examples 1a, 1b, 2, 3a. Note that, in **main_post.py** (or **main_post.ipynb**), we must set the values of **fprefix** and **lmax** accordingly.
   
-  Note that, in **main_post.py** (or **main_post.ipynb**), we must set the values of **fprefix** and **lmax** accordingly.
-  While all figures for Example 3b were already made when we ran **main_ex03b.py** (or **main_ex03b.ipynb**).
-    
-
+  All figures for Example 3b were already made when we ran **main_ex03b.py** (or **main_ex03b.ipynb**).
   
 ## ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) **Hint:** To check if the codes work properly
 
