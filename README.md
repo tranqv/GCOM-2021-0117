@@ -184,3 +184,7 @@ Python libraries:
 + [6] https://docs.scipy.org/doc/scipy/reference/interpolate.html 
 + [7] https://docs.scipy.org/doc/scipy/reference/special.html
 + [8] https://matplotlib.org/
+
+--------------------------------
+
+Contact: **viet204@mail.com**
