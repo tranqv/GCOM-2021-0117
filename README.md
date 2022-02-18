@@ -1,6 +1,7 @@
-# GCOM-2021-0117 (https://doi.org/10.1080/00207160.2021.2012167)
+# GCOM-2021-0117
 
 ## **On mild solutions of the p-Laplacian fractional Langevin equations with anti-periodic type boundary conditions**
+## Link: https://doi.org/10.1080/00207160.2021.2012167
 
 The python codes here are to perform the numerical experiments:
 
